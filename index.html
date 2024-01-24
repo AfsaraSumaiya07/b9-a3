@@ -56,7 +56,7 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li>Home</li>
+                <li><span class="text-[#FF4240]">Home</span></li>
                 <li>About</li>
                 <li>Pages</li>
                 <li>Blog</li>
@@ -69,7 +69,7 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><span>Home</span></li>
+              <li><span class="text-[#FF4240]">Home</span></li>
               <li><a href="">About</a></li>
               <li><a href="">Pages</a></li>
               <li><a href="">Blog</a></li>
@@ -78,7 +78,7 @@
           </div>
 
           <div class="navbar-end">
-            <div class="text-[#89898B] gap-3 hidden">
+            <div class="text-[#89898B] mr-3 hidden lg:flex">
               <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <a class="btn bg-[#FF4240] rounded-lg text-white">Get Ticket</a>
@@ -155,76 +155,95 @@
         </div>
       </section>
       <!-- Radial progress section starts  -->
-      <section class="text-2xl font-extrabold grid grid-cols-1 lg:grid-cols-4 text-center  mt-28">
-       <div class="sm:pt-6">
-        <div
-        class="no-1 radial-progress  text-[#FF4240]"
-        style="--value: 87"
-        role="progressbar"
+      <section
+        class="text-2xl font-extrabold grid grid-cols-1 lg:grid-cols-4 text-center mt-28"
       >
-        <span class="text-black">87%</span>
-      </div>
-      
-        <div class="py-4" >
-        <h3 class="text-xl font-semibold">Prayer Facility</h3>
-        <p class="font-medium text-base py-4">Here shows the progress of <br> prayer facilities.</p>
-      </div>
-       </div>
+        <div class="sm:pt-6">
+          <div
+            class="no-1 radial-progress text-[#FF4240]"
+            style="--value: 87"
+            role="progressbar"
+          >
+            <span class="text-black">87%</span>
+          </div>
 
-       <div class="sm:pt-6">
-        <div
-        class="no-2 radial-progress text-[#49D293] text-center "
-        style="--value: 95"
-        role="progressbar"
-      >
-        <span class="text-black">95%</span>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold py-4">Experienced Coach</h3>
-        <p class="font-medium text-base ">Here shows the progress of <br> Experienced Coach. </p>
-      </div>
-       </div>
+          <div class="py-4">
+            <h3 class="text-xl font-semibold">Prayer Facility</h3>
+            <p class="font-medium text-base py-4">
+              Here shows the progress of <br />
+              prayer facilities.
+            </p>
+          </div>
+        </div>
 
-     <div class="sm:pt-6">
-      <div>
-        <div
-        class="no-3 radial-progress text-[#FFB546]"
-        style="--value: 90"
-        role="progressbar"
-      >
-        <span class="text-black">90%</span>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold py-4">Senior Player</h3>
-        <p class="font-medium text-base">Here shows the progress of <br> Senior Player. </p>
-      </div>
-      </div>
-     </div>
+        <div class="sm:pt-6">
+          <div
+            class="no-2 radial-progress text-[#49D293] text-center"
+            style="--value: 95"
+            role="progressbar"
+          >
+            <span class="text-black">95%</span>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold py-4">Experienced Coach</h3>
+            <p class="font-medium text-base">
+              Here shows the progress of <br />
+              Experienced Coach.
+            </p>
+          </div>
+        </div>
 
-      <div class="sm:pt-6">
-        <div
-        class="no-4 radial-progress text-[#4C8DF1]"
-        style="--value: 80"
-        role="progressbar"
-      >
-        <span class="text-black">80%</span>
-        
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold py-4">Training Ground</h3>
-        <p class="font-medium text-base">Here shows the progress of <br>Training Ground. </p>
-      </div>
-      </div>
+        <div class="sm:pt-6">
+          <div>
+            <div
+              class="no-3 radial-progress text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="text-black">90%</span>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold py-4">Senior Player</h3>
+              <p class="font-medium text-base">
+                Here shows the progress of <br />
+                Senior Player.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sm:pt-6">
+          <div
+            class="no-4 radial-progress text-[#4C8DF1]"
+            style="--value: 80"
+            role="progressbar"
+          >
+            <span class="text-black">80%</span>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold py-4">Training Ground</h3>
+            <p class="font-medium text-base">
+              Here shows the progress of <br />Training Ground.
+            </p>
+          </div>
+        </div>
       </section>
       <!-- Program Sections start  -->
       <section class="text-center my-28">
-        <div class="py-10 border-dashed border-t-2 border-b-2 border-[#13131833]">
-          <h3 class="text-[#131318] text-4xl font-extrabold">Program Sections</h3>
-          <p class=" font-medium text-base text-[#131318] opacity-60 py-4">
-            Program Sections is a term that can have <br> various meanings depending on the context in which it is used</p>
-
+        <div
+          class="py-10 border-dashed border-t-2 border-b-2 border-[#13131833]"
+        >
+          <h3 class="text-[#131318] text-4xl font-extrabold">
+            Program Sections
+          </h3>
+          <p class="font-medium text-base text-[#131318] opacity-60 py-4">
+            Program Sections is a term that can have <br />
+            various meanings depending on the context in which it is used
+          </p>
         </div>
-        <div class="image-container grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10">
+        <div
+          class="image-container grid grid-cols-1 lg:grid-cols-2 gap-4 mt-10"
+        >
           <div class="relative">
             <div
               class="absolute top-0 left-0 w-full h-full bg-black opacity-50 rounded-2xl"
@@ -235,7 +254,9 @@
             >
               <h3 class="font-extrabold text-2xl mb-3">Junior Program</h3>
               <p class="mb-3">
-                In the context of hockey, a "Junior Program" typically refers to a development program designed for young and aspiring hockey players.
+                In the context of hockey, a "Junior Program" typically refers to
+                a development program designed for young and aspiring hockey
+                players.
               </p>
               <button
                 class="btn bg-[#FF4240] px-10 py-2 border-none text-white font-bold"
@@ -254,8 +275,9 @@
             >
               <h3 class="font-extrabold text-2xl mb-3">Teenager Program</h3>
               <p class="mb-3">
-               
-              A "Teenager Program" in hockey is likely a specialized development initiative tailored for teenagers who are interested in pursuing hockey at a more advanced level.
+                A "Teenager Program" in hockey is likely a specialized
+                development initiative tailored for teenagers who are interested
+                in pursuing hockey at a more advanced level.
               </p>
               <button
                 class="btn bg-[#FF4240] px-10 py-2 border-none text-white font-bold"
@@ -265,19 +287,20 @@
             </div>
           </div>
         </div>
-        
+
         <div class="relative grid-col mt-4">
           <div
             class="absolute top-0 left-0 w-full h-full bg-black opacity-50 rounded-2xl"
           ></div>
-          <img class="w-full h-full "src="Images/4.png" alt="" />
+          <img class="w-full h-full" src="Images/4.png" alt="" />
           <div
-            class="absolute top-1/2 left-1/2 -translate-y-28 -translate-x-52 lg:translate-y-16  text-white text-left mt-3 "
+            class="absolute top-1/2 left-1/2 -translate-y-28 -translate-x-52 lg:translate-y-16 text-white text-left mt-3"
           >
             <h3 class="font-extrabold text-2xl mb-3">Professional Program</h3>
             <p class="mb-3">
-              
-            A "Professional Program" in hockey typically refers to a structured and advanced development initiative designed for athletes. 
+              A "Professional Program" in hockey typically refers to a
+              structured and advanced development initiative designed for
+              athletes.
             </p>
             <button
               class="btn bg-[#FF4240] px-10 py-2 border-none text-white font-bold"
@@ -289,127 +312,246 @@
       </section>
       <!-- Our New Products section start -->
       <section>
-        <div class="text-center border-dashed border-t-2 border-b-2 border-[#13131833] py-10 mt-28">
+        <div
+          class="text-center border-dashed border-t-2 border-b-2 border-[#13131833] py-10 mt-28"
+        >
           <h3 class="text-[#131318] text-4xl font-extrabold">
             Our New Products
           </h3>
-          <p class="font-medium text-base text-[#131318] opacity-60 py-4">Hockey is more than a sport; it's a way of life. <br>On the ice, we speak the language of champions.</p>
+          <p class="font-medium text-base text-[#131318] opacity-60 py-4">
+            Hockey is more than a sport; it's a way of life. <br />On the ice,
+            we speak the language of champions.
+          </p>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 pt-12 gap-6">
           <!-- 1st row  -->
-          <div class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5">
+          <div
+            class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5"
+          >
             <div>
-              <img src="./Images/5.png" alt="">
+              <img src="./Images/5.png" alt="" />
             </div>
             <div class="pl-5">
-              <i class="fa-solid fa-star" style="color: #F99808;"><span class="text-[#13131880] text-sm font-medium p-2">5.0</span></i>
-              <i class="fa-regular fa-eye" style="color: #13131880;"><span class="text-sm font-medium p-2">20</span></i>
-              <i class="fa-regular fa-heart" style="color: #13131880;"><span class="text-sm font-medium p-2">200</span></i>
+              <i class="fa-solid fa-star" style="color: #f99808"
+                ><span class="text-[#13131880] text-sm font-medium p-2"
+                  >5.0</span
+                ></i
+              >
+              <i class="fa-regular fa-eye" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">20</span></i
+              >
+              <i class="fa-regular fa-heart" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">200</span></i
+              >
               <div class="py-4">
-                <h5 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h5>
-                <p class="text-base font-medium text-[#13131899] pt-2 ">Skating through life with a hockey stick in hand. <br>Life is better with skates on.</p>
+                <h5 class="text-[#131318] text-xl font-extrabold">
+                  World Cup Flags Football
+                </h5>
+                <p class="text-base font-medium text-[#13131899] pt-2">
+                  Skating through life with a hockey stick in hand. <br />Life
+                  is better with skates on.
+                </p>
               </div>
               <div class="flex">
-                <h6 class="text-[#FF4240] text-lg font-extrabold  pr-2 ">Price - $22.00</h6>
-                <img src="./Images/Frame.png" alt="">
-                <p class="text-[#13131880] text-base font-medium pl-2 ">Delivery Fee : Free</p>
+                <h6 class="text-[#FF4240] text-lg font-extrabold pr-2">
+                  Price - $22.00
+                </h6>
+                <img src="./Images/Frame.png" alt="" />
+                <p class="text-[#13131880] text-base font-medium pl-2">
+                  Delivery Fee : Free
+                </p>
               </div>
             </div>
           </div>
-          <div class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5">
+          <div
+            class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5"
+          >
             <div>
-              <img src="./Images/6.png" alt="">
+              <img src="./Images/6.png" alt="" />
             </div>
             <div class="pl-5">
-              <i class="fa-solid fa-star" style="color: #F99808;"><span class="text-[#13131880] text-sm font-medium p-2">5.0</span></i>
-              <i class="fa-regular fa-eye" style="color: #13131880;"><span class="text-sm font-medium p-2">20</span></i>
-              <i class="fa-regular fa-heart" style="color: #13131880;"><span class="text-sm font-medium p-2">200</span></i>
+              <i class="fa-solid fa-star" style="color: #f99808"
+                ><span class="text-[#13131880] text-sm font-medium p-2"
+                  >5.0</span
+                ></i
+              >
+              <i class="fa-regular fa-eye" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">20</span></i
+              >
+              <i class="fa-regular fa-heart" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">200</span></i
+              >
               <div class="py-4">
-                <h5 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h5>
-                <p class="text-base font-medium text-[#13131899] pt-2 ">Skating through life with a hockey stick in hand. <br>Life is better with skates on.</p>
+                <h5 class="text-[#131318] text-xl font-extrabold">
+                  World Cup Flags Football
+                </h5>
+                <p class="text-base font-medium text-[#13131899] pt-2">
+                  Skating through life with a hockey stick in hand. <br />Life
+                  is better with skates on.
+                </p>
               </div>
               <div class="flex">
-                <h6 class="text-[#FF4240] text-lg font-extrabold  pr-2 ">Price - $22.00</h6>
-                <img src="./Images/Frame.png" alt="">
-                <p class="text-[#13131880] text-base font-medium pl-2 ">Delivery Fee : Free</p>
+                <h6 class="text-[#FF4240] text-lg font-extrabold pr-2">
+                  Price - $22.00
+                </h6>
+                <img src="./Images/Frame.png" alt="" />
+                <p class="text-[#13131880] text-base font-medium pl-2">
+                  Delivery Fee : Free
+                </p>
               </div>
             </div>
           </div>
           <!-- 2nd row  -->
-          <div class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5">
+          <div
+            class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5"
+          >
             <div>
-              <img src="./Images/7.png" alt="">
+              <img src="./Images/7.png" alt="" />
             </div>
             <div class="pl-5">
-              <i class="fa-solid fa-star" style="color: #F99808;"><span class="text-[#13131880] text-sm font-medium p-2">5.0</span></i>
-              <i class="fa-regular fa-eye" style="color: #13131880;"><span class="text-sm font-medium p-2">20</span></i>
-              <i class="fa-regular fa-heart" style="color: #13131880;"><span class="text-sm font-medium p-2">200</span></i>
+              <i class="fa-solid fa-star" style="color: #f99808"
+                ><span class="text-[#13131880] text-sm font-medium p-2"
+                  >5.0</span
+                ></i
+              >
+              <i class="fa-regular fa-eye" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">20</span></i
+              >
+              <i class="fa-regular fa-heart" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">200</span></i
+              >
               <div class="py-4">
-                <h5 class="text-[#131318] text-xl font-extrabold">Cap For Hockeys</h5>
-                <p class="text-base font-medium text-[#13131899] pt-2 ">Skating through life with a hockey stick in hand. <br>Life is better with skates on.</p>
+                <h5 class="text-[#131318] text-xl font-extrabold">
+                  Cap For Hockeys
+                </h5>
+                <p class="text-base font-medium text-[#13131899] pt-2">
+                  Skating through life with a hockey stick in hand. <br />Life
+                  is better with skates on.
+                </p>
               </div>
               <div class="flex">
-                <h6 class="text-[#FF4240] text-lg font-extrabold  pr-2 ">Price - $22.00</h6>
-                <img src="./Images/Frame.png" alt="">
-                <p class="text-[#13131880] text-base font-medium pl-2 ">Delivery Fee : Free</p>
+                <h6 class="text-[#FF4240] text-lg font-extrabold pr-2">
+                  Price - $22.00
+                </h6>
+                <img src="./Images/Frame.png" alt="" />
+                <p class="text-[#13131880] text-base font-medium pl-2">
+                  Delivery Fee : Free
+                </p>
               </div>
             </div>
           </div>
-          <div class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5">
+          <div
+            class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5"
+          >
             <div>
-              <img src="./Images/8.png" alt="">
+              <img src="./Images/8.png" alt="" />
             </div>
             <div class="pl-5">
-              <i class="fa-solid fa-star" style="color: #F99808;"><span class="text-[#13131880] text-sm font-medium p-2">5.0</span></i>
-              <i class="fa-regular fa-eye" style="color: #13131880;"><span class="text-sm font-medium p-2">20</span></i>
-              <i class="fa-regular fa-heart" style="color: #13131880;"><span class="text-sm font-medium p-2">200</span></i>
+              <i class="fa-solid fa-star" style="color: #f99808"
+                ><span class="text-[#13131880] text-sm font-medium p-2"
+                  >5.0</span
+                ></i
+              >
+              <i class="fa-regular fa-eye" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">20</span></i
+              >
+              <i class="fa-regular fa-heart" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">200</span></i
+              >
               <div class="py-4">
-                <h5 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h5>
-                <p class="text-base font-medium text-[#13131899] pt-2 ">Skating through life with a hockey stick in hand. <br>Life is better with skates on.</p>
+                <h5 class="text-[#131318] text-xl font-extrabold">
+                  World Cup Flags Football
+                </h5>
+                <p class="text-base font-medium text-[#13131899] pt-2">
+                  Skating through life with a hockey stick in hand. <br />Life
+                  is better with skates on.
+                </p>
               </div>
               <div class="flex">
-                <h6 class="text-[#FF4240] text-lg font-extrabold  pr-2 ">Price - $22.00</h6>
-                <img src="./Images/Frame.png" alt="">
-                <p class="text-[#13131880] text-base font-medium pl-2 ">Delivery Fee : Free</p>
+                <h6 class="text-[#FF4240] text-lg font-extrabold pr-2">
+                  Price - $22.00
+                </h6>
+                <img src="./Images/Frame.png" alt="" />
+                <p class="text-[#13131880] text-base font-medium pl-2">
+                  Delivery Fee : Free
+                </p>
               </div>
             </div>
           </div>
           <!-- 3rd row  -->
-          <div class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5">
+          <div
+            class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5"
+          >
             <div>
-              <img src="./Images/9.png" alt="">
+              <img src="./Images/9.png" alt="" />
             </div>
             <div class="pl-5">
-              <i class="fa-solid fa-star" style="color: #F99808;"><span class="text-[#13131880] text-sm font-medium p-2">5.0</span></i>
-              <i class="fa-regular fa-eye" style="color: #13131880;"><span class="text-sm font-medium p-2">20</span></i>
-              <i class="fa-regular fa-heart" style="color: #13131880;"><span class="text-sm font-medium p-2">200</span></i>
+              <i class="fa-solid fa-star" style="color: #f99808"
+                ><span class="text-[#13131880] text-sm font-medium p-2"
+                  >5.0</span
+                ></i
+              >
+              <i class="fa-regular fa-eye" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">20</span></i
+              >
+              <i class="fa-regular fa-heart" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">200</span></i
+              >
               <div class="py-4">
-                <h5 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h5>
-                <p class="text-base font-medium text-[#13131899] pt-2 ">Skating through life with a hockey stick in hand. <br>Life is better with skates on.</p>
+                <h5 class="text-[#131318] text-xl font-extrabold">
+                  World Cup Flags Football
+                </h5>
+                <p class="text-base font-medium text-[#13131899] pt-2">
+                  Skating through life with a hockey stick in hand. <br />Life
+                  is better with skates on.
+                </p>
               </div>
               <div class="flex">
-                <h6 class="text-[#FF4240] text-lg font-extrabold  pr-2 ">Price - $22.00</h6>
-                <img src="./Images/Frame.png" alt="">
-                <p class="text-[#13131880] text-base font-medium pl-2 ">Delivery Fee : Free</p>
+                <h6 class="text-[#FF4240] text-lg font-extrabold pr-2">
+                  Price - $22.00
+                </h6>
+                <img src="./Images/Frame.png" alt="" />
+                <p class="text-[#13131880] text-base font-medium pl-2">
+                  Delivery Fee : Free
+                </p>
               </div>
             </div>
           </div>
-          <div class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5">
+          <div
+            class="flex border-solid border-zinc-300 border-2 rounded-2xl p-5"
+          >
             <div>
-              <img src="./Images/10.png" alt="">
+              <img src="./Images/10.png" alt="" />
             </div>
             <div class="pl-5">
-              <i class="fa-solid fa-star" style="color: #F99808;"><span class="text-[#13131880] text-sm font-medium p-2">5.0</span></i>
-              <i class="fa-regular fa-eye" style="color: #13131880;"><span class="text-sm font-medium p-2">20</span></i>
-              <i class="fa-regular fa-heart" style="color: #13131880;"><span class="text-sm font-medium p-2">200</span></i>
+              <i class="fa-solid fa-star" style="color: #f99808"
+                ><span class="text-[#13131880] text-sm font-medium p-2"
+                  >5.0</span
+                ></i
+              >
+              <i class="fa-regular fa-eye" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">20</span></i
+              >
+              <i class="fa-regular fa-heart" style="color: #13131880"
+                ><span class="text-sm font-medium p-2">200</span></i
+              >
               <div class="py-4">
-                <h5 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h5>
-                <p class="text-base font-medium text-[#13131899] pt-2 ">Skating through life with a hockey stick in hand. <br>Life is better with skates on.</p>
+                <h5 class="text-[#131318] text-xl font-extrabold">
+                  World Cup Flags Football
+                </h5>
+                <p class="text-base font-medium text-[#13131899] pt-2">
+                  Skating through life with a hockey stick in hand. <br />Life
+                  is better with skates on.
+                </p>
               </div>
               <div class="flex">
-                <h6 class="text-[#FF4240] text-lg font-extrabold  pr-2 ">Price - $22.00</h6>
-                <img src="./Images/Frame.png" alt="">
-                <p class="text-[#13131880] text-base font-medium pl-2 ">Delivery Fee : Free</p>
+                <h6 class="text-[#FF4240] text-lg font-extrabold pr-2">
+                  Price - $22.00
+                </h6>
+                <img src="./Images/Frame.png" alt="" />
+                <p class="text-[#13131880] text-base font-medium pl-2">
+                  Delivery Fee : Free
+                </p>
               </div>
             </div>
           </div>
@@ -417,23 +559,244 @@
       </section>
       <!-- Clients Question section start  -->
       <section>
-        <div class="text-center border-dashed border-t-2 border-b-2 border-[#13131833] py-10 mt-28">
+        <div
+          class="text-center border-dashed border-t-2 border-b-2 border-[#13131833] py-10 mt-28"
+        >
           <h3 class="text-[#131318] text-4xl font-extrabold">
             Clients Question
           </h3>
-          <p class="font-medium text-base text-[#131318] opacity-60 py-4">Hockey is more than just a game; it's a symphony of speed, skill, and spirit, where every stride, pass, <br> and goal tells a story of determination and camaraderie on the frozen canvas of the rink.</p>
+          <p class="font-medium text-base text-[#131318] opacity-60 py-4">
+            Hockey is more than just a game; it's a symphony of speed, skill,
+            and spirit, where every stride, pass, <br />
+            and goal tells a story of determination and camaraderie on the
+            frozen canvas of the rink.
+          </p>
         </div>
-
       </section>
-          
-     
+      <!-- Accordion section start  -->
+      <section
+        class="flex flex-col lg:flex-row border-solid border-zinc-300 border-2 rounded-2xl p-5 mt-7"
+      >
+        <div class="w-auto ml-3 mt-3">
+          <img src="./Images/11.png" alt="" />
+        </div>
+        <div class="lg:w-8/12 lg:pl-8">
+          <div class="collapse collapse-plus border-b-2 mb-3">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">Our Equipment</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mb-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Hockey Training
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mb-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Private Lessons
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mb-3">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">Ski Touring</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mb-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Booking</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mb-3">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">Pricings</div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Get In Touch section start  -->
+      <section>
+        <div
+          class="text-center border-dashed border-t-2 border-b-2 border-[#13131833] py-10 mt-28"
+        >
+          <h3 class="text-[#131318] text-4xl font-extrabold">Get In Touch</h3>
+          <p class="font-medium text-base text-[#131318] opacity-60 py-4">
+            In the rink of life, play with passion, skate with purpose, and let
+            <br />the echoes of every puck slapshot resonate with the heartbeat
+            of your love for the game.
+          </p>
+        </div>
+      </section>
+      <section class="mt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-6 gap-5 justify-between">
+          <div
+            class="col-span-2 w-full border-solid border-2 border-[#1313181A] rounded-2xl p-12"
+          >
+            <div class="bg-[#BCED6D1A] rounded-2xl p-8 mb-4">
+              <img src="Images/Group 1171275317.png" alt="" />
+              <p>
+                Phone Number : <br /><span class="font-extrabold"
+                  >(+62) 123-321-543</span
+                >
+              </p>
+            </div>
+            <div class="bg-[#FDDD5F1A] rounded-2xl p-8 mb-4">
+              <img src="Images/Group 1171275318.png" alt="" />
+              <p>
+                Email : <br /><span class="font-extrabold"
+                  >hockeys@support.com</span
+                >
+              </p>
+            </div>
+            <div class="bg-[#629CF31A] rounded-2xl p-8">
+              <img src="Images/Group 1171275321.png" alt="" />
+              <p>
+                Location : <br /><span class="font-extrabold"
+                  >152/1 Mohakhali Wireless Gate</span
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-span-4">
+            <div class="flex flex-col lg:flex-row gap-3 mb-3">
+              <div class="w-full">
+                <h2 class="text-xl font-bold">Your Name</h2>
+                <input
+                  type="text"
+                  placeholder="Enter your full name"
+                  class="input input-bordered w-full mt-4 bg-[#13131808]"
+                />
+              </div>
+              <div class="w-full">
+                <h2 class="text-xl font-bold">Your Email</h2>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="input input-bordered w-full mt-4 bg-[#13131808]"
+                />
+              </div>
+            </div>
+            <div class="flex flex-col lg:flex-row gap-3 mb-4">
+              <div class="w-full">
+                <h2 class="text-xl font-bold">Subject</h2>
+                <input
+                  type="text"
+                  placeholder="Enter your subject"
+                  class="input input-bordered w-full mt-4 bg-[#13131808]"
+                />
+              </div>
+              <div class="w-full">
+                <h2 class="text-xl font-bold">Phone Number</h2>
+                <input
+                  type="email"
+                  placeholder="Enter your phone number"
+                  class="input input-bordered w-full mt-4 bg-[#13131808]"
+                />
+              </div>
+            </div>
+            <div class="mb-4">
+              <h2 class="text-xl font-bold">Message</h2>
+              <textarea
+                class="textarea textarea-bordered textarea-lg w-full h-96 mt-4 bg-[#13131808]"
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+            <button class="btn bg-[#FF4240] text-white w-full">
+              Send Message
+            </button>
+          </div>
+        </div>
+        <div class="bg-[#13131808] p-9 w-full rounded-2xl my-5 text-center">
+          <h1 class="text-2xl font-extrabold">Social Media</h1>
+          <img src="Images/Social.png" alt="" class="mx-auto my-5" />
+          <div class="flex justify-center gap-6">
+            <i
+              class="fa-brands fa-facebook text-3xl"
+              style="color: #0617f9"
+            ></i>
+            <i
+              class="fa-brands fa-instagram text-3xl"
+              style="color: #143148"
+            ></i>
+            <i class="fa-brands fa-github text-3xl" style="color: #0f0f10"></i>
+            <i class="fa-brands fa-twitter text-3xl" style="color: #74c0fc"></i>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <!-- footer section start  -->
+    <footer class="footer p-10 bg-[#131318] text-[#FFFFFF99] justify-around">
+      <div class="text-center lg:text-left">
+        <div class="flex justify-center w-full lg:justify-start">
+          <h5 class="text-3xl font-extrabold text-white inline !text-center">
+            Get In Touch
+          </h5>
+        </div>
+        <div>
+          <p>
+            In the game of life, always play with heart and hustle.Skating
+            <br />through seasons, embracing the hockey vibes.
+          </p>
+        </div>
+        <div
+          class="flex gap-3 my-3 w-full justify-center lg:w-auto text-center items-center"
+        >
+          <img src="./Images/Frame.png" alt="" />
+          <a href="#">hockeys@support.com</a>
+        </div>
+        <div
+          class="flex gap-3 w-full justify-center lg:w-auto text-center items-center"
+        >
+          <img src="./Images/Frame (1).png" alt="" />
+          <a href="#">(+62) 123-321-543</a>
+        </div>
+      </div>
+
+      <div class="flex justify-between lg:flex-row px-10 gap-x-36">
+        <nav class="">
+          <header class="text-white text-lg font-bold pb-2">Company</header>
+          <div class="flex flex-col space-y-2">
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </div>
+        </nav>
+        <nav>
+          <header class="text-white text-lg font-bold pb-2">Support</header>
+          <div class="flex flex-col space-y-2">
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+      <nav class="mx-auto">
+        <header class="text-white text-lg font-bold">Services</header>
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockeys for kids</a>
+        <a class="link link-hover">Hockeys for Adult</a>
+      </nav>
+    </footer>
   </body>
 </html>
-<!-- <div class="text-center border-dashed border-t-2 border-b-2 border-[#13131833] py-10 mt-28">
-  <h3 class="text-[#131318] text-4xl font-extrabold">
-    Our New Products
-  </h3>
-  <p class="font-medium text-base text-[#131318] opacity-60 py-4">Hockey is more than a sport; it's a way of life. <br>On the ice, we speak the language of champions.</p>
-</div> -->
